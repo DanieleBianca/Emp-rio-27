@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Empório 27</title>
+    <style>
+        body{
+            background-color: #FFF8E7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav > a{
+            color: #FFF8E7;
+            padding: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            transition-duration: 0.5s;
+        }
+        main{
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .produtos-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            padding: 2rem 0;
+        }
+        .produtos-card{
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            font-size: 1.1em;
+        }
+        .produtos-image {
+            width: 100%;
+            height: 250px;
+            margin: 0 auto;
+            display: flex;
+        }
+        .produtos-image img {
+            width: 100%;
+            height: auto;
+            margin: 0 15px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        h1, h2, h3{
+            text-align: center;
+        }
+        ul p{
+            text-align: justify;
+            font-size: 1em;
+        }
+        main h2{
+            color: #597841;
+        }
+    </style>
+</head>
+<body>
+     <main>
+        <article> 
+            <div class="produtos-grid">
+                <div class="produtos-card">
+                    <h2>Quem Somos</h2>
+                    <ul>
+                        <div class="justify">
+                        <p> A Padaria Empório 27 era a princípio um mini mercado inaugurado no tempo pós pandemia, administrado pela 
+                            Luciana Cabrera e sua filha Lorena Nogueira onde comercializava-se produtos básico do dia a dia, sem contar 
+                            com produção própria.</p> 
+                        </div>
+                            <div class="produtos-image">
+                                <img src="Minimercado lado de fora.JPG" width="30%" height="auto" alt="Empório 27 quando era um mercado">
+                                <img src="Minimercado.JPG" width="30%" height="auto">
+                            </div>
+                        <p>Afim de expandir os empreendimento, a família decidiu iniciar a venda do clássico pão 
+                        francês comprando-o de uma revendedora e assando em seu próprio comércio. 
+                        Consequente ao início das vendas de pães, notou-se um crescimento comercial, momento em que mãe e filha 
+                        decidiram então expandir ainda mais na área da panificação.
+                        </p> 
+                        <p>Luciana e Lorena contaram com a ajuda do Geovane Cruz, padeiro experiente no ramo, para iniciar o funcionamento
+                        da atual padaria inaugurada em 2023, nomeada Empório 27,  que conta atualmente com 9 colaboradores.
+                        <div class="sócios">
+                            <img src="Empório27.jpg" width="30%" height="auto" alt="Luciana, Lorena, Geovane e Heliana">
+                        </div>
+                    </p>
+                    </ul>
+                </div>    
+            </div>
+        </article>
+     </main>
+</body>
+</html>
